@@ -136,8 +136,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 👤 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [@yourlinkedin](https://linkedin.com/in/yourlinkedin)
+- GitHub: [@devops-bharat05](https://github.com/devops-bharat05)
+- LinkedIn: [@Bharat Bhushan](https://www.linkedin.com/in/bharat-bhushan-devops)
 
 ---
 
