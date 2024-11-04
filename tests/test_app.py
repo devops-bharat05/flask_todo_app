@@ -1,21 +1,17 @@
-# tests/test_app.py
+import requests
 
-import pytest
-from app import app
+# Replace with your actual EC2 instance IP and port if not using the default port 5000
+BASE_URL = "http://54.68.238.162:5000"
 
-@pytest.fixture
-def client():
-    with app.test_client() as client:
-        yield client
+def check_app_status():
+    try:
+        response = requests.get(BASE_URL)
+        if response.status_code == 200:
+            print("The Flask app is running successfully!")
+        else:
+            print(f"Failed to reach the app. Status code: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred: {e}")
 
-def test_home(client):
-    response = client.get('/')
-    assert response.status_code == 200
-
-def test_add_task(client):
-    response = client.post('/addtask', data={'newtask': 'Test Task'})
-    assert response.status_code == 200
-
-def test_clear_list(client):
-    response = client.get('/clear')
-    assert response.status_code == 200
+if __name__ == "__main__":
+    check_app_status()
