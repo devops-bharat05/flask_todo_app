@@ -1,6 +1,6 @@
 # 📝 To-Do List Application
 
-![Alt text](./imgs/data.svg)
+![Alt text](./imgs/data.png)
 
 A simple, clean, and efficient To-Do List web application built with Flask, designed to help you keep track of tasks and manage your daily to-do items effectively. This app also includes a CI/CD pipeline setup using GitHub Actions for automated testing and deployment.
 
@@ -40,10 +40,11 @@ to-do-list-flask-app/
 ## 🖼️ Screenshots
 
 ### Homepage
-![Homepage](https://user-images.githubusercontent.com/xyz/your-homepage-image-path.png)
+![Alt text](./imgs/flask_todoapp.png)
 
 ### Task List
-![Task List](https://user-images.githubusercontent.com/xyz/your-tasklist-image-path.png)
+![Alt text](./imgs/task_list.png)
+
 
 ---
 
